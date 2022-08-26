@@ -125,6 +125,9 @@ cite{
     float: left;
     width: 40%;
 }
+.limitaTexto01{
+    width: 75%;
+}
 .diferenciado {
     font-family: Roboto, sans-serif;
     font-size: 60px;
