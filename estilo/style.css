@@ -41,8 +41,8 @@ h2 {
 
 li{
     background-color: blue;
-    list-style-type: none;
-    display: block;
+/*    list-style-type: none;
+    display: block;*/
    /*  padding: 10px; */
 }
 
@@ -59,16 +59,16 @@ aside, figure{
     border: 5px solid var(--cor-preto);
 }
 aside {
-    width: 18%;
+    width: 19%;
     margin: auto;
     position: relative;
     top: 20px;
-    right: 20;
+    right: 30px;
     clear: right;
     background-color: var(--cor-secundaria);
 }
 
-li a {
+nav ul li a {
     display: block;
     color: rgb(233, 221, 221);
     padding: 10px;
@@ -97,7 +97,7 @@ aside {
     width: 18%;
     margin: auto;
     position: relative;
-    top: 20px;
+    top: -34px;
     right: 20;
     clear: right;
     background-color: var(--cor-secundaria);
@@ -150,4 +150,24 @@ cite{
 }
 .limpaFloat{
     clear: both;
+}
+
+ul{
+    background-color: var(--cor-azul);
+}
+
+.icones-sociais li{
+    background-color: var(--cor-azul);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding:0;
+    margin-left: 9px;
+}
+
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: white;
 }
