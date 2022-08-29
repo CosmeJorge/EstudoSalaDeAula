@@ -68,6 +68,7 @@ aside {
     background-color: var(--cor-secundaria);
 }
 
+<<<<<<< Updated upstream
 nav ul li a {
     display: block;
     color: rgb(233, 221, 221);
@@ -76,6 +77,11 @@ nav ul li a {
     text-decoration: none;
     text-transform: bold;
     text-align: center;
+=======
+ main{
+    background-color: rgb(250, 248, 246);
+    padding: 20px
+>>>>>>> Stashed changes
 }
 
 nav li a:hover{
