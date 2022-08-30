@@ -14,18 +14,33 @@
 
 body{
     font-family: Roboto, sans-serif;
-    width: 1024px;
-    margin: auto;
     background-color: var(--cor-de-fundo);
 }
 
+header{
+    height: 150px;
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    
+}
+header nav{
+    width:1024px;
+    position: absolute;
+    bottom: 0;
+}
+header nav ul li{
+    display: inline-block;
+}
 main{
     background-color: var(--cor-secundaria);
     text-align: justify;
     /* margin: 20px; */
     padding: 20px;
     position: relative;
- }
+    width: 1024px;
+    margin: auto;
+}
 
 blockquote{
     padding: 10px;
@@ -55,6 +70,10 @@ cite{
 
 h2 {
     font-size: 40px;
+}
+
+p {
+    text-indent: 50px;
 }
 
 figure{
@@ -156,8 +175,10 @@ img{
     text-align: center;
 }
 
-ul{
+ul, ol{
     background-color: var(--cor-azul);
+    list-style: none;
+   
 }
 
 .icones-sociais li{
@@ -169,9 +190,30 @@ ul{
     margin-left: 10px;
 }
 .icones-sociais a{
-    background-image: url(img/github.png);
     width: 40px;
     height: 40px;
     display: inline-block;
     color: white;
+    text-indent: -9999px;
  }
+ .github{
+    background-image: url(../img/github.png);
+ }
+ .linkedin{
+    background-image: url(../img/linkedin.png);
+ }
+ .twitter:hover{
+    display: block;
+    text-transform: bold;
+    transition: .6s;
+    background-image: url(../img/twitter.png);
+    position: relative; 
+    margin-right: 50%;
+ }
+ /*header nav ul li{
+     display: inline-block;
+     color: white;
+     padding:10px;
+     margin: 10px;
+   
+ }*/
