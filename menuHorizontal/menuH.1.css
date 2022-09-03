@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif
+}
+
+:root{
+    --cor-de-fundo: blue;
+    --cor-principal: yellow;
+    --cor-hover: chocolate;
+}
+
+nav{
+  
+    background: var(--cor-de-fundo);
+}
+
+nav ul{
+    max-width: 800px;
+    margin:auto;
+    background: var(--cor-de-fundo);
+}
+
+ol, ul{
+    list-style: none;
+}
+
+
+nav ul li{
+    position: relative; /* aqui estava comentado*/
+    display: inline-block;
+    
+}
+
+nav ul li a{
+    display: block; /* aqui estava comentado*/
+    padding: 10px;
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: var(--cor-hover);
+    transition: 0.6s; /* a transição esta na nav ul li a*/
+}
+
+
+/*nav ul li:last-child a{
+    float: right;
+    background-color: chocolate;
+}*/
+.entra:last-child{ /*melhor opção*/
+    /*nav ul li:nth-child(6) a{ poderia ser usado assim*/
+    float: right;
+    background-color: chocolate;
+    margin-right: 50px;
+}
+
+/* Submenu*/
+nav ul ul{
+    display: none;
+    position: absolute;
+    left: 0;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: blue; /* esta cor de fundo não tem*/
+}
