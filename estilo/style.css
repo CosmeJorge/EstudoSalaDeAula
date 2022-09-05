@@ -55,6 +55,24 @@ input[type=text]{
     text-align: center;
     color: var(--cor-secundaria);
 }
+/* configuração para o carrinho criada pelo professor */
+#carrinho{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    background-color: none;
+    border: none;
+    
+}
+
+#cliente{
+    position: absolute;
+    right: -20px;
+    top: 0;
+    background-color: none;
+    border: none;
+    
+}
 
 header nav{
     width:1024px;
@@ -249,3 +267,19 @@ ul, ol{
      margin: 10px;
    
  }*/
+
+ /* minha configuração
+ #semFundo{
+     border: none;
+     background-color: rgba(0,0,0,0);
+
+ }
+ #carrinho{
+     width: 50px;
+     float: right;
+ }
+
+ #cliente{
+    width: 50px;
+    float: right;
+}*/
