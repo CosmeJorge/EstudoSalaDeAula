@@ -61,9 +61,40 @@ p{
     margin-right: 10px;
 }
 
+.imgright{
+    float: right;
+    margin-left: 10px;
+}
+img{
+    filter: grayscale(100);
+    
+}
+
 footer{
     width: 920px;
     height: 40px;
     background-color: #999;
     margin-top: 10px;
+}
+
+input, textarea{
+    width: 250px;
+    border: none;
+    background-color: #ccc;
+    
+}
+
+textarea{
+    width: 350px;
+    height: 120px;
+    resize: none;
+   
+}
+
+input[type=submit]{
+    width: 90px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 20px;
 }
