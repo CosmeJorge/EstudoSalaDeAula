@@ -5,6 +5,13 @@
     <link rel="stylesheet" href="estilos/style.css">
     
     <title>Senac WD3</title>
+    <script type="text/javascript">
+    $(window).load(function(){
+        $("#quemsomos").click(function(){
+            console.log("Cliquei!")
+        });
+    })
+    </script>
 </head>
 <body>
     <div id="popup">
@@ -12,35 +19,34 @@
     </div>
     <main>
         <header>
-            <figure>
+            <figure id="logo"> 
                 <a href="index.html"> <img src="img/logo.png" alt="Logotipo"></a>
             </figure>
             <nav>
-            
                 <a href="index.html">HOME</a>
-                <a href="#">QUEM SOMOS</a>
+                <a href="#" id="quemsomos">QUEM SOMOS</a>
                 <a href="#">SERVIÇOS</a>
                 <a href="#">LOCALIZAÇÃO</a>
                 <a href="#">CONTATO</a>
                 <div id="caixa">
                     <a href="#"> Histórico</a>
-                    <a href="#"> Parceiros"></a>
-                    <a href="#"> Visão></a>
+                    <a href="#"> Parceiros</a>
+                    <a href="#"> Visão</a>
                 </div>
             </nav>
         </header>
         <figure id="banner">
             <img src="img/banner.jpg" alt="banner do site">
-            <img src="img/banner2.jpg" alt="banner do site">
-            <img src="img/banner3.jpg" alt="banner do site">
+           <!-- <img src="img/banner2.jpg" alt="banner do site">
+            <img src="img/banner3.jpg" alt="banner do site">-->
 
         </figure>
 
         <aside id="conteudo">
-            <figure>
+            <figure id="imgleft">
                 <img src="img/imgconteudo.jpg" alt="Imagem mulher">
             </figure>
-            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus iusto similique id, vel praesentium odit nemo vero harum dolor non porro quae dolores laboriosam officia libero consectetur laborum perspiciatis atque.</h1>
+            <h1 class="titulo"> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus iusto similique id, vel praesentium odit nemo vero harum dolor non porro quae dolores laboriosam officia libero consectetur laborum perspiciatis atque."</h1>
         </aside>
 
         <section id="box1">
