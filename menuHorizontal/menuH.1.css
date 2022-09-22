@@ -73,3 +73,7 @@ nav ul li:hover ul{
     position: absolute;
     background-color: blue; /* esta cor de fundo não tem*/
 }
+
+nav ul ul a{
+    width: 100%;
+}
